@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Brian's Website</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<!--<script src="js/google_map.js"></script>-->
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">RESUME</a></h1>
+					<span>Welcome to my website</span>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="education.html">Education</a></li>
+						<li><a href="works.html">Works</a></li>
+						<li class="active"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<div id="googleMap" style="width:100%;height:400px;"></div>
+				<script>
+					function myMap() {
+					var mapProp= {
+						center:new google.maps.LatLng(23.951104,120.931216),
+						zoom:15,
+					};
+					var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+					}
+				</script>
+
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyI_TibLJjEm3PzyyNbUOLDs9YQRkLpk8&callback=myMap"></script>
+				<!--
+					To use this code on your website, get a free API key from Google.
+					Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+				-->
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<h2>Java Program</h2>
+						<a href="#" class="image full"><img src="images/Java.jpg" alt="" /></a>
+						<p>Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.</p>
+						<p><a href="http://programming.im.ncnu.edu.tw/J_index.html" class="button">More Details</a></p>
+					</div>
+					<div class="4u">
+						<h2>C Program</h2>
+						<a href="#" class="image full"><img src="images/C.jpg" alt="" /></a>
+						<p>C is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many operations.</p>
+						<p><a href="http://programming.im.ncnu.edu.tw/C_index.html" class="button">More Details</a></p>
+					</div>
+					<div class="4u">
+						<h2>HTML 5 & CSS 3</h2>
+						<a href="#" class="image full"><img src="images/html_css.jpg" alt="" /></a>
+						<p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.Many new syntactic features are included.</p>
+						<p><a href="https://www.w3schools.com/html/default.asp" class="button">More Details</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<section>
+							<h2>My School</h2>
+							<ul class="default">
+								<li><a href="http://www.nctu.edu.tw/">National Chiao Tung University</a></li>
+								<li><a href="http://www.ncnu.edu.tw/ncnuweb/">National Chi Nan University</a></li>
+								<li><a href="http://www.sphs.hc.edu.tw/ischool/publish_page/0/">ST.Peter Senior High School</a></li>
+								<li><a href="http://www1.pijh.hc.edu.tw/web/index.php">Pei Ying Senior School</a></li>
+								<li><a href="http://www.pups.hc.edu.tw/">Don Yuan Elementary School</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="4u">
+						<section>
+							<h2>Project Management</h2>
+							<ul class="default">
+								<li><a href="https://tree.taiga.io/">Taiga</a></li>
+								<li><a href="https://slack.com/">Slack</a></li>
+								<li><a href="https://github.com/">GitHub</a></li>
+								<li><a href="http://nchu-mis-html5.blogspot.tw/">Html5 Tutorials</a></li>
+								<li><a href="https://www.w3schools.com/">W3C School</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="4u">
+						<section>
+							<h2>Entertainment Platform</h2>
+							<ul class="default">
+								<li><a href="https://www.twitch.tv/">Twitch</a></li>
+								<li><a href="https://www.youtube.com/?gl=TW&hl=zh-TW">Youtube</a></li>
+								<li><a href="http://www.tutorabc.com/OfficialSite/zh-TW">TutorABC</a></li>
+								<li><a href="http://maplestage.com/">MapleStage</a></li>
+								<li><a href="http://www05.eyny.com/index.php">Enjoy Your Life</a></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				<p>Design: <a href="https://www.facebook.com/profile.php?id=100002084890213">Brian Liu</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)<p>
+				<p><a href="index.html"> HOMEPAGE /<a href="education.html">/ EDUCATION /<a href="works.html">/ WORKS /<a href="contact.html">/ CONTACT </p>
+			</div>
+		</div>
+		
+	</body>
+</html>
