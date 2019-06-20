@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	CSS Style 
 *	Edit this section
 *
 * ======================================================= */
@@ -31,6 +31,14 @@ a {
     outline: none;
     text-decoration: none !important; }
 
+.colorlib-social-icons a:hover, .colorlib-social-icons a:focus {
+  text-decoration: none !important; 
+}
+    
+.colorlib-social-icons i {
+    font-size: 24px;
+    color: #2c98f0; 
+}
 p {
   margin-bottom: 1.5em; }
 
